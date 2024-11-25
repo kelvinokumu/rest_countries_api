@@ -5,3 +5,4 @@ class Country:
         self.capital = capital
         self.region = region
         self.population = population
+
