@@ -9,6 +9,7 @@ def get_all_countries() -> list[CountryResponse]:
     countries = response.json()
     return [
         CountryResponse(
+            
             name=country["name"]["common"],
             capital=country.get("capital", ["N/A"])[0],
             region=country.get("region", "Unknown"),
