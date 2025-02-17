@@ -1,5 +1,5 @@
 import requests
-from app.schemas.country_schema import CountryResponse
+from schemas.country_schema import CountryResponse
 
 REST_COUNTRIES_URL = "https://restcountries.com/v3.1"
 
