@@ -7,7 +7,8 @@ class CountryResponse(BaseModel):
     population: int
 
     class Config:
-        orm_mode = True
+        # orm_mode = True
+        from_attributes = True
 
         """_summary_
         ORM (Object-Relational Mapping) is a programming technique used to map data between a relational database 

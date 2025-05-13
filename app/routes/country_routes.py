@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Query
-from schemas.country_schema import CountryResponse
+from app.schemas.country_schema import CountryResponse
 
-from services.country_service import (
+from app.services.country_service import (
     get_all_countries,
     get_country_by_name,
     get_countries_by_region,
